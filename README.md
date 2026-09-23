@@ -1,4 +1,4 @@
-# Lab Exercise 11 – Node.js REST API CI/CD
+# Lab Exercise 12– Node.js REST API CI/CD
 
 ## Objective
 Develop a REST API using Node.js with a `/status` endpoint, containerize it using Docker, and automate deployment using Jenkins.
