@@ -1,0 +1,26 @@
+LAB EXERCISE 11 - PROJECT ARCHITECTURE
+
+GitHub Repository
+       |
+       | Push / Webhook
+       v
+     Jenkins
+       |
+       | docker build
+       v
+  Docker Image
+   nodejs-api
+       |
+       | docker run
+       v
+ Docker Container
+ nodejs-container
+       |
+       | Port 3000
+       v
+ Node.js REST API
+       |
+       +---- GET /status
+                    |
+                    v
+       JSON status response

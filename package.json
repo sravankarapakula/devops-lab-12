@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-cicd-lab11",
+  "version": "1.0.0",
+  "description": "REST API for Lab Exercise 11 using Node.js, Docker and Jenkins",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
